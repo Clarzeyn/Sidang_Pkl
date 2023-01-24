@@ -241,38 +241,22 @@
                      <ul class="list cat-list">
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Administrasi Kependudukan</p>
-                              <p>(37)</p>
+                              <p>Fasilitas</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Pelayanan Masyarakat</p>
-                              <p>(10)</p>
+                              <p>Pelayanan</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Kepegawaian</p>
-                              <p>(03)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Infrastruktur</p>
-                              <p>(11)</p>
+                              <p>Administrasi</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
                               <p>Kesehatan</p>
-                              <p>(21)</p>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#" class="d-flex">
-                              <p>Bantuan Kemanusiaan</p>
-                              <p>(21)</p>
                            </a>
                         </li>
                      </ul>
@@ -311,28 +295,19 @@
                      <h4 class="widget_title">Tag Clouds</h4>
                      <ul class="list">
                         <li>
-                           <a href="#">Infrastruktur</a>
+                           <a href="#">Fasilitas</a>
                         </li>
                         <li>
-                           <a href="#">Kepegawaian</a>
+                           <a href="#">Pelayanan</a>
                         </li>
                         <li>
-                           <a href="#">technology</a>
+                           <a href="#">Administrasi</a>
                         </li>
                         <li>
                            <a href="#">Kesehatan</a>
                         </li>
                         <li>
-                           <a href="#">Kependudukan</a>
-                        </li>
-                        <li>
-                           <a href="#">Kepegawaian</a>
-                        </li>
-                        <li>
-                           <a href="#">Pelayanan Masyarakat</a>
-                        </li>
-                        <li>
-                           <a href="#">Bantuan</a>
+                           <a href="#">Kesehatan</a>
                         </li>
                      </ul>
                   </aside>

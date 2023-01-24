@@ -63,7 +63,7 @@
                         <div class="user-menu dropdown-menu">
                             <a class="nav-link" href="{{route('user.show',auth()->user()->id)}}"><i class="fa fa- user"></i>My Profile</a>
 
-                            <a class="nav-link" href="{{url('petugas/pengaduan')}}"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a>
+                            <a class="nav-link" href="{{url('petugas/pengaduan')}}"><i class="fa fa- user"></i>Notifikasi <span class="count">13</span></a>
 
                             <a class="nav-link" href="{{route('petugas-user.showing',auth()->user()->id)}}"><i class="fa fa -cog"></i>Settings</a>
 
@@ -90,7 +90,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                                 <ol class="breadcrumb text-right">
                                     <li><a href="#">Dashboard</a></li>
                                     <li><a href="#">Komentar</a></li>
-                                    <li class="active">Semua</li>
+                                    <li class="active">Tampilkan</li>
                                 </ol>
                             </div>
                         </div>
@@ -137,16 +137,16 @@
                                 </div>
                                 @endif
                             <div class="card-header">
-                                <strong class="card-title">All Comment</strong>
+                                <strong class="card-title">Semua Komentar</strong>
                             </div>
                             <div class="table-stats order-table ov-h">
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
-                                            <th class="serial">#</th>
-                                            <th width="501px">Subject</th>
-                                            <th class="text-center">Created At</th>
-                                            <th class="text-center">Action</th>
+                                            <th class="serial">No</th>
+                                            <th width="501px">Isi Komentar</th>
+                                            <th class="text-center">Dibuat</th>
+                                            <th class="text-center">Aksi</th>
 
                                         </tr>
                                     </thead>

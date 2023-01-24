@@ -114,7 +114,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -122,9 +122,9 @@
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Kelola Data</a></li>
                                     <li><a href="#">Pengumuman</a></li>
-                                    <li class="active">Create</li>
+                                    <li class="active">Edit</li>
                                 </ol>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                 <div class="row">
                   
                         <div class="col-lg-12">
-                        <form action="{{route('petugas-pengumuman.update',$pengumuman->id)}}" method="POST">
+                        <form action="{{route('pengumuman.update',$pengumuman->id)}}" method="POST">
                         @csrf
                         @method('POST')
                         <div class="card">

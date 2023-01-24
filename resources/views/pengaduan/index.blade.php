@@ -132,10 +132,11 @@
                                           }
                                         </style>
 
+                                           
                                             <textarea name="isi_laporan" required="" id="editor1" rows="10" cols="80" >
                                                 
                                             </textarea><br>
-                                             <select name="kategori" id="" required="" data-placeholder="Category ..." class="standardSelect form-control col-md-12" tabindex="1" >
+                                             <select name="kategori" id="" required data-placeholder="Category ..." class="standardSelect form-control col-md-12" tabindex="1" >
                                                 <option value="" label="Category" disabled="true" selected="">Pilih Kategori ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
                                                 <option value="Fasilitas">Fasilitas</option>
                                                 <option value="Pelayanan">Pelayanan</option>

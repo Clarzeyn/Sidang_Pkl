@@ -115,7 +115,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Kelola Data</a></li>
                                     <li><a href="#">Pengumuman</a></li>
                                     <li class="active">Tampilkan</li>
                                 </ol>
@@ -168,10 +168,10 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th class="serial">#</th>
-                                            <th width="501px">Subject</th>
-                                            <th class="text-center">Created At</th>
-                                            <th class="text-center">Action</th>
+                                            <th class="serial">No</th>
+                                            <th width="501px">Judul</th>
+                                            <th class="text-center">Dibuat</th>
+                                            <th class="text-center">Aksi</th>
 
                                         </tr>
                                     </thead>
@@ -206,18 +206,6 @@
 
 <div class="clearfix"></div>
 
-<footer class="site-footer">
-    <div class="footer-inner bg-white">
-        <div class="row">
-            <div class="col-sm-6">
-                Copyright &copy; 2018 Ela Admin
-            </div>
-            <div class="col-sm-6 text-right">
-                Designed by <a href="https://colorlib.com">Colorlib</a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </div><!-- /#right-panel -->
 

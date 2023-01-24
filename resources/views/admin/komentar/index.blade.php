@@ -115,7 +115,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Kelola Data</a></li>
                                     <li><a href="#">Komentar</a></li>
                                     <li class="active">Semua</li>
                                 </ol>
@@ -162,16 +162,16 @@
                                 </div>
                                 @endif
                             <div class="card-header">
-                                <strong class="card-title">All Comment</strong>
+                                <strong class="card-title">Semua Komentar</strong>
                             </div>
                             <div class="table-stats order-table ov-h">
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
-                                            <th class="serial">#</th>
-                                            <th width="501px">Subject</th>
-                                            <th class="text-center">Created At</th>
-                                            <th class="text-center">Action</th>
+                                            <th class="serial">Np</th>
+                                            <th width="501px">Isi Komentar</th>
+                                            <th class="text-center">Dibuat</th>
+                                            <th class="text-center">Aksi</th>
 
                                         </tr>
                                     </thead>

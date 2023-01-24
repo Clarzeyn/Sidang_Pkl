@@ -90,7 +90,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -185,10 +185,10 @@
     <div class="footer-inner bg-white">
         <div class="row">
             <div class="col-sm-6">
-                Copyright &copy; 2018 Ela Admin
+                Copyright &copy; 2022 Wildan
             </div>
             <div class="col-sm-6 text-right">
-                Designed by <a href="https://colorlib.com">Colorlib</a>
+                Designed by <a href="https://colorlib.com">Will</a>
             </div>
         </div>
     </div>

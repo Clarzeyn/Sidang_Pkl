@@ -209,7 +209,7 @@
                                             <!-- founder -->
                                             <div class="testimonial-founder d-flex align-items-center  justify-content-center">
                                                 <div class="founder-img">
-                                                    <img src="assets/img/testmonial/ridwan_kamil.jpg" alt="">
+                                                    <img src="" alt="">
                                                 </div>
                                             <div class="founder-text"><br>
                                                 <span>Ridwan Kamil</span>
@@ -226,7 +226,7 @@
                                             <!-- founder -->
                                             <div class="testimonial-founder d-flex align-items-center justify-content-center">
                                                 <div class="founder-img">
-                                                    <img src="assets/img/testmonial/yasin.jpg" alt="">
+                                                    <img src="" alt="">
                                                 </div>
                                             <div class="founder-text"><br>
                                                 <span>Dadang Supriatna</span>
@@ -238,12 +238,12 @@
                                     <div class="single-testimonial text-center">
                                         <div class="testimonial-caption ">
                                             <div class="testimonial-top-cap">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                                <p>Wildan Mochamad Nur Fallah adalah seorang pelajar dari sekolah SMK Assalaam Bandung dengan lebih tepatnya di kelas 12 RPL 3</p>
                                             </div>
                                             <!-- founder -->
                                             <div class="testimonial-founder d-flex align-items-center  justify-content-center">
                                                 <div class="founder-img">
-                                                    <img src="assets/img/testmonial/jm.jpg" alt="">
+                                                    <img src="#" alt="">
                                                 </div>
                                             <div class="founder-text"><br>
                                                 <span>Wildan Mochamad Nur Fallah</span>
@@ -276,7 +276,7 @@
                         </div>
                         <div class="col-xl-5 col-lg-3 col-md-12">
                            <div class="wantToWork-btn f-right">
-                                <a href="mailto:imamfirmansyah724@gmail.com" class="btn btn-ans">Contact Us</a>
+                                <a href="https://api.whatsapp.com/send?phone=+62081292690211&amp;text=Assalamualaikum Pak/Ibu Mohon Informasi PPDB" class="btn btn-ans">Contact Us</a>
                            </div>
                         </div>
                     </div>

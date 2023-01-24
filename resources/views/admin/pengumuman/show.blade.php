@@ -115,7 +115,7 @@
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -123,9 +123,9 @@
                         <div class="page-header float-right">
                             <div class="page-title">
                                 <ol class="breadcrumb text-right">
-                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Kelola Data</a></li>
                                     <li><a href="#">Blog</a></li>
-                                    <li class="active">Show All</li>
+                                    <li class="active">Lihat</li>
                                 </ol>
                             </div>
                         </div>

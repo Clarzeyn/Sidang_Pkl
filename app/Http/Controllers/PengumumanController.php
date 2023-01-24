@@ -17,10 +17,10 @@ class PengumumanController extends Controller
         $this->middleware('auth');
     }
     public function index()
-    {   
+    {
         $pengumumans = Pengumuman::latest()->paginate(20);
-        return view('admin.pengumuman.index',compact('pengumumans'))
-                ->with('i',(request()->input('page', 1) -1) *5);
+        return view('admin.pengumuman.index', compact('pengumumans'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
     /**
@@ -41,13 +41,13 @@ class PengumumanController extends Controller
      */
     public function store(Request $request)
     {
-       Pengumuman::create([
+        Pengumuman::create([
             'nama' => $request->nama,
             'level' => $request->level,
             'isi' => $request->isi,
             'judul' => $request->judul,
-       ]);
-       return redirect('admin/pengumuman')->with('success','pengumuman berhasil dikirim');
+        ]);
+        return redirect('admin/pengumuman')->with('success', 'pengumuman berhasil dikirim');
     }
 
     /**
@@ -56,9 +56,10 @@ class PengumumanController extends Controller
      * @param  \App\Pengumuman  $pengumuman
      * @return \Illuminate\Http\Response
      */
-    public function showing($id){
+    public function showing($id)
+    {
         $pengumuman = \App\Pengumuman::find($id);
-        return view('admin.pengumuman.show',compact('pengumuman'));  
+        return view('admin.pengumuman.show', compact('pengumuman'));
     }
     /**
      * Show the form for editing the specified resource.
@@ -68,7 +69,7 @@ class PengumumanController extends Controller
      */
     public function edit(Pengumuman $pengumuman)
     {
-        return view('admin.pengumuman.edit',compact('pengumuman'));
+        return view('admin.pengumuman.edit', compact('pengumuman'));
     }
 
     /**
@@ -80,13 +81,13 @@ class PengumumanController extends Controller
      */
     public function update(Request $request, Pengumuman $pengumuman)
     {
-       Pengumuman::whereId($pengumuman->id)->update([
+        Pengumuman::whereId($pengumuman->id)->update([
             'nama' => $request->nama,
             'judul' => $request->judul,
             'isi' => $request->isi,
             'level' => $request->level,
-       ]);
-        return redirect ('admin/pengumuman')->with('warning','Data Telah di ubah.');
+        ]);
+        return redirect('admin.pengumuman')->with('warning', 'Data Telah di ubah.');
     }
 
     /**
@@ -99,6 +100,6 @@ class PengumumanController extends Controller
     {
         $pengumuman->delete();
         return back()
-                ->with('destroy','1 Pengumuman Telah Di Hapus.');
+            ->with('destroy', '1 Pengumuman Telah Di Hapus.');
     }
 }

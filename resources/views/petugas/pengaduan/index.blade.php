@@ -100,7 +100,7 @@ $(document).ready(function(){
                     <div class="col-sm-4">
                         <div class="page-header float-left">
                             <div class="page-title">
-                                <h1>Dashboard</h1>
+                                <h1>Kelola Data</h1>
                             </div>
                         </div>
                     </div>
@@ -155,10 +155,10 @@ $(document).ready(function(){
                                 <table class="table ">
                                     <thead>
                                         <tr>
-                                            <th class="serial">#</th>
-                                            <th width="501px">Title</th>
-                                            <th class="text-center">Created At</th>
-                                            <th class="text-center">Action</th>
+                                            <th class="serial">No</th>
+                                            <th width="501px">Judul</th>
+                                            <th class="text-center">Dibuat</th>
+                                            <th class="text-center">Aksi</th>
                                             <th class="text-center">Status</th>
 
                                         </tr>
